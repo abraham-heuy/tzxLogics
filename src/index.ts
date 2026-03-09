@@ -4,7 +4,7 @@ import "reflect-metadata";
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import {AppDataSource} from "./config/data-sourcegit "
+import {AppDataSource} from "./config/data-source"
 import cookieParser from "cookie-parser";
 import registrationRoutes from "./modules/register/registrationRoutes";
 import authRoutes from "./modules/auth/authRoutes";
